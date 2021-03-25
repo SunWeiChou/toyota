@@ -1,0 +1,136 @@
+.wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.box1{
+    box-sizing: border-box;
+    width: 70%;
+    max-width: 960px;
+    /* background-color: #eee; */
+    /* border: red 1px solid; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.grayblock{
+    background-color: #eee;
+    width: 439px;
+    height: 290px;
+    position: relative;
+    top: 36px;
+}
+.pic{
+    position: absolute;
+    top: 125px;
+    left: 185px;
+}
+.yticon{
+    position: absolute;
+    top: 211px;
+    right: -15px;
+    margin: auto;
+    z-index: 2;
+}
+.yticon img{
+    width: 57px;
+    height: 36px;
+}
+.header1{
+    width: 355px;
+    margin-bottom: 150px;
+    z-index: 2;
+    /* border: 1px solid #00f; */
+}
+.text{
+    background-color: #f00;
+}
+h2{
+    font-size: 50px;
+    font-weight: 300;
+    color: #fff;
+    /* background-color: #f00; */
+    /* margin-bottom: 10px; */
+    /* line-height: 20px;   */
+}
+.num{
+    font-size: 118px;
+    writing-mode: vertical-rl;
+    position: relative;
+    left: -15px;
+}
+.title{
+    line-height: 30px;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+article{
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+p{
+    font-size: 21px;
+    line-height: 2rem;
+    font-weight: 300;
+}
+.section2{
+    box-sizing: border-box;
+    width: 682px;
+    background-color: #eee;
+    padding: 20px 25px;
+    position: relative;
+    left: 50px;
+}
+h4{
+    font-size: 18px;
+    color: #c00000;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+h4::after{
+    content: '';
+    height: 2px;
+    width: 70%;
+    background-color: #c00000;
+    margin-left: 7px;
+}
+h5{
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 5px;
+    border-radius:5%;
+    margin-bottom: 10px;
+}
+ul{
+    list-style-type:square;
+}
+li{
+    color: #f00;
+    font-size: 16px;
+    line-height: 1.25rem;
+    font-weight: 400;
+    /* text-indent: -5px; 點和字的距離 */
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+li:last-child{
+    margin-bottom: 0;
+}
+li > span{
+    color: #666;
+}
