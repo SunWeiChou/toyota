@@ -2,21 +2,25 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     padding-top: 50px;
 }
-.box1{
+.box{
     box-sizing: border-box;
     width: 70%;
     max-width: 960px;
-    /* background-color: #eee; */
-    /* border: red 1px solid; */
-    margin: 0 auto;
+    border: red 1px solid;
+    margin: 37px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
 }
+
+.box:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
 .grayblock{
     background-color: #eee;
     width: 439px;
@@ -24,10 +28,21 @@
     position: relative;
     top: 36px;
 }
+.grayblock_2n{
+    width: 518px;
+    height: 413px;
+    top: 61px;
+    left: 278px;
+}
+
 .pic{
     position: absolute;
     top: 125px;
     left: 185px;
+}
+.pic_2n{
+    top: 136px;
+    left: 7px;
 }
 .yticon{
     position: absolute;
@@ -35,6 +50,9 @@
     right: -15px;
     margin: auto;
     z-index: 2;
+}
+.yticon_2n{
+    left: -7px;
 }
 .yticon img{
     width: 57px;
@@ -44,7 +62,6 @@
     width: 355px;
     margin-bottom: 150px;
     z-index: 2;
-    /* border: 1px solid #00f; */
 }
 .text{
     background-color: #f00;
@@ -53,9 +70,6 @@ h2{
     font-size: 50px;
     font-weight: 300;
     color: #fff;
-    /* background-color: #f00; */
-    /* margin-bottom: 10px; */
-    /* line-height: 20px;   */
 }
 .num{
     font-size: 118px;
@@ -92,6 +106,9 @@ p{
     position: relative;
     left: 50px;
 }
+.section2_2n{
+    left: 0;
+}
 h4{
     font-size: 18px;
     color: #c00000;
@@ -124,7 +141,6 @@ li{
     font-size: 16px;
     line-height: 1.25rem;
     font-weight: 400;
-    /* text-indent: -5px; 點和字的距離 */
     margin-left: 20px;
     margin-bottom: 10px;
 }
