@@ -1,5 +1,7 @@
 .wrap{
     width: 100%;
+    max-width: 1440px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,12 +91,12 @@ article{
     color: #fff;
 }
 h3{
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 18px;
     font-weight: 400;
 }
 p{
-    font-size: 21px;
+    font-size: 20px;
     line-height: 2rem;
     font-weight: 300;
 }
