@@ -11,7 +11,6 @@
     box-sizing: border-box;
     width: 70%;
     max-width: 960px;
-    border: red 1px solid;
     margin: 37px auto;
     display: flex;
     flex-wrap: wrap;
@@ -79,11 +78,23 @@ h2{
     position: relative;
     left: -15px;
 }
+.num:nth-child(2){
+    left: 36px;
+    font-size:108px;
+}
+.num_03{
+    font-size:100px;
+}
+
 .title{
     line-height: 30px;
     position: relative;
     bottom: 30px;
     right: 20px;
+}
+.title_2n{
+    right: -50px;
+    bottom: 40px;
 }
 article{
     padding: 20px;
